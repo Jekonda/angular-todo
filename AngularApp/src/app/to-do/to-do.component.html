@@ -1,0 +1,42 @@
+<div class="ui card">
+  <div class="content">
+    <div class="header">
+      <div class="ui input small">
+        <input type="text" [(ngModel)]="todo.title">
+      </div>
+    </div>
+    <div class="description">
+      <div class="ui input">
+        <textarea [(ngModel)]="todo.description"></textarea>
+      </div>
+    </div>
+  </div>
+  <div class="extra content">
+    <span class="left floated like">
+      Dead Line:
+    </span>
+    <span class="right floated star">
+        <input type="date" [ngModel]="todo.deadLine | date:'yyyy-MM-dd'" (ngModelChange)="todo.deadLine = $event">
+    </span>
+  </div>
+  <div class="extra content">
+    <div class="field">
+    <span class="left floated test">
+      Task is done:
+    </span>
+    </div>
+    <span class="right floated star">
+      <div class="ui toggle checkbox">
+        <input type="checkbox" name="public" [(ngModel)]="todo.isDone">
+        <label></label>
+      </div>
+    </span>
+    <div class="extra content">
+      <div class="ui two buttons">
+        <div class="ui basic green button"><a href (click)="updateItem(todo)"> <i class="trash icon"></i>Save</a>
+        </div>
+        <div class="ui basic red button"><a href (click)="deleteItem(todo)"><i class="trash icon"></i>Remove</a></div>
+      </div>
+    </div>
+  </div>
+</div>

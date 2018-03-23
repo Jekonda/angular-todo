@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Евгений\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_Server.1713026500.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Евгений\source\repos\ToDoList\Server" t="IncludeRecursive">
+      <e p="appsettings.Development.json" t="Include" />
+      <e p="appsettings.json" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="Context" t="Include">
+        <e p="ToDoContext.cs" t="Include" />
+      </e>
+      <e p="Controllers" t="Include">
+        <e p="ToDoController.cs" t="Include" />
+      </e>
+      <e p="Migrations" t="Include">
+        <e p="20180322130001_CreateEntity.cs" t="Include" />
+        <e p="20180322130001_CreateEntity.Designer.cs" t="Include" />
+        <e p="ToDoContextModelSnapshot.cs" t="Include" />
+      </e>
+      <e p="Model" t="Include">
+        <e p="TaskItem.cs" t="Include" />
+      </e>
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp2.0" t="Include">
+            <e p="Server.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Program.cs" t="Include" />
+      <e p="Server.csproj" t="IncludeRecursive" />
+      <e p="Server.sln" t="IncludeFlat" />
+      <e p="SqlLite" t="Include">
+        <e p="ToDoList.db" t="Include" />
+      </e>
+      <e p="Startup.cs" t="Include" />
+      <e p="wwwroot" t="Include">
+        <e p="3rdpartylicenses.txt" t="Include" />
+        <e p="favicon.ico" t="Include" />
+        <e p="flags.9c74e172f87984c48ddf.png" t="Include" />
+        <e p="icons.2980083682e94d33a66e.svg" t="Include" />
+        <e p="icons.706450d7bba6374ca02f.ttf" t="Include" />
+        <e p="icons.97493d3f11c0a3bd5cbd.woff2" t="Include" />
+        <e p="icons.d9ee23d59d0e0e727b51.woff" t="Include" />
+        <e p="icons.f7c2b4b747b1a225eb8d.eot" t="Include" />
+        <e p="index.html" t="Include" />
+        <e p="inline.318b50c57b4eba3d437b.bundle.js" t="Include" />
+        <e p="main.42986ea5485bcaad3bff.bundle.js" t="Include" />
+        <e p="polyfills.bf95165a1d5098766b92.bundle.js" t="Include" />
+        <e p="styles.4248c7d4827ae4a416f0.bundle.css" t="Include" />
+      </e>
+    </e>
+  </component>
+</project>
