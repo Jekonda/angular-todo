@@ -1,5 +1,5 @@
-#Angular 5 + .Net core 2 WebApi + EF + sqllite
+# Angular 5 + .Net core 2 WebApi + EF + sqllite
 
-'cd AngularApp' run 'npm install', 'npm run build'
-'cd Server' run 'dotnet run' 
-go 'localhost:5000'
+`cd AngularApp` run `npm install' then `npm run build`
+`cd Server` run `dotnet run` 
+navigate `localhost:5000`
